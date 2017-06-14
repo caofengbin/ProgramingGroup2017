@@ -34,4 +34,30 @@ public class MyArrayList implements List {
 	public int size() {
 		return -1;
 	}
+	
+	public Iterator iterator() {
+		return new ArrayListIterrator(this);
+	}
+	
+	private class ArrayListIterrator implements Iterator {
+
+		MyArrayList arrayList = null;
+		
+		private ArrayListIterrator(MyArrayList arrayList) {
+			this.arrayList = arrayList;
+		}
+		
+		@Override
+		public boolean hasNest() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		@Override
+		public Object next() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		
+	}
 }
