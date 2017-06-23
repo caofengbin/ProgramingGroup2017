@@ -5,9 +5,11 @@ package com.season2.ocp.old;
  */
 public class Logger {
 
+	// Log Type字段
 	public final int RAW_LOG = 1;
 	public final int RAW_LOG_WITH_DATE = 2;
 	
+	// Log Method字段
 	public final int EMAIL_LOG = 1;
 	public final int SMS_LOG = 2;
 	public final int PRINT_LOG = 3;
