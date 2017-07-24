@@ -1,5 +1,7 @@
 package com.season2.srp.good;
 
+import java.awt.List;
+
 public class Mail {
 
 	private User user;
